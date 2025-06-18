@@ -1,0 +1,13 @@
+#Container{
+    margin-top: 10%;
+    background: #f5f6fa;
+    min-height: 100vh
+}
+
+@media (min-width: 768px) {
+    #Container{
+        margin-top: 3%;
+        background: #f5f6fa;
+        min-height: 100vh
+    }
+}

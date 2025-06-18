@@ -1,0 +1,67 @@
+#loginLink{
+    visibility: hidden;
+}
+#StudentImgId{
+    display: none;
+}
+#formContainerLogin{
+    border: 0px solid black;
+    width: 85dvw;
+    padding: 30px;
+    border-radius: 15px;
+    .btn{
+        margin-left: 70px;
+    }
+}
+.eStudentGestLogo{
+    width: 50dvw;
+    /*margin-left: 80px;*/
+}
+
+#eStudentGestLogoImg{
+    width: 80%;
+    margin-left: 50px;
+}
+@media (min-width: 768px) {
+    #StudentImgId{
+        display: flex;
+        z-index: -1;
+        position:absolute;
+        width: 600px;
+    }
+    #formContainerLogin{
+        border: 0px solid var(--bs-primary);
+        padding: 40px;
+        width: 50dvw;
+        border-radius: 15px;
+
+        .btn{
+            margin-left: 40%;
+        }
+    }
+    #signupLink{
+        visibility: hidden;
+    }
+    #eStudentGestLogoImg{
+        width: 35%;
+        margin-left: 180px;
+    }
+}
+
+
+
+/*css du loader*/
+.loader {
+    border: 8px solid #f3f3f3; /* Light grey */
+    border-top: 8px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 2s linear infinite;
+    margin: 20px auto;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}

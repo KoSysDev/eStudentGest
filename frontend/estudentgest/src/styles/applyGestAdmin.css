@@ -1,0 +1,23 @@
+#ContainerAdmin{
+    min-height: 100dvh;
+    position: absolute;
+    top: 2%;
+}
+
+#G_label{
+    font-size: 15px;
+}
+
+@media (min-width: 768px) {
+    #ContainerAdmin{
+        min-height: 100dvh;
+        position: absolute;
+        top: 2%;
+        left: 7%;
+
+    }
+
+    #G_label{
+    font-size: 25px;
+    }
+}
