@@ -49,7 +49,7 @@ function App() {
   });
 }, []);
   return (
-    <Router>
+    <Router basename="/">
       <main>
         <Routes>
           <Route path="/" element={<HomePage />} />
