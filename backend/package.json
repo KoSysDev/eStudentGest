@@ -4,7 +4,8 @@
   "description": "backend de eStudentGest, plateforme de gestion des inscriptions en ligne d'une école",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "David Kossi ADEKPLOVI",
   "license": "ISC",
@@ -23,3 +24,4 @@
     "nodemon": "^3.1.10"
   }
 }
+
