@@ -51,7 +51,7 @@ exports.signup = (req, res, next) =>{
                                         <h2 style="text-align: center;">Bienvenue sur eStudentGest!</h2>
                                         <p style="text-align: left;">Merci de vous être inscrit. Pour confirmer votre adresse email, veuillez cliquer sur le bouton ci-dessous :</p>
                                         <div style="text-align: center; margin: 20px;">
-                                            <a href="${process.env.BASE_URL}/confirm/${confirmationToken}" onclick="window.location.href=this.href" style="background-color: #28a745; color: #fff; padding: 10px 20px; text-decoration: none; border-radius: 5px;">Confirmer Email</a>
+                                            <a href="${process.env.BASE_URL}/confirm/${confirmationToken}" " style="background-color: #28a745; color: #fff; padding: 10px 20px; text-decoration: none; border-radius: 5px;">Confirmer Email</a>
                                         </div>
                                         <p style="text-align: center;">Si vous n'avez pas créé de compte, veuillez ignorer cet email.</p>
                                         <div style="text-align: center; margin-top: 40px; font-size: 12px; color: #aaa;">
